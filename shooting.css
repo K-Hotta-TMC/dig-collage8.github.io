@@ -1,0 +1,28 @@
+#buttonClick {
+    width: 6em;
+    height: 3em;
+    font-size:30px;
+}
+
+#tytle{
+    margin: 30px;
+}
+
+#wholeSetting {
+    width: 640px;
+    height: 640px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+
+
+#howTo{
+    text-align: left;
+	display: inline-block;
+}
+
+#text1{
+    margin: 20px;
+}
