@@ -1,4 +1,24 @@
-//スプライトクラス
+//敵マスター
+class TekiMaster{
+    constructor(tnum,r,hp,score){
+        this.tnum = tnum;
+        this.r =r;
+        this.hp =hp;
+        this.score=score;
+    }
+}
+
+//(敵No,半径,HP,スコア)
+let tekiMaster=[
+    new TekiMaster(0,10,20,100),   //0,ピンクひよこ
+    new TekiMaster(1,10,1,100),   //1,黄色ひよこ
+    new TekiMaster(2,10,100,200),   //2,メカひよこ
+    new TekiMaster(3,10,20,150),   //3,ヤクザひよこ
+    new TekiMaster(4,70,2000,10000),   //4,ボスひよこ
+    new TekiMaster(5,10,1,5)   //4,黄色弱ひよこ
+]
+
+ //スプライトクラス
 class Sprite {
     constructor(x, y, w, h) {
         this.x = x;
