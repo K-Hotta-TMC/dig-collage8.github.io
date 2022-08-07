@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +8,26 @@
 </head>
 
 <body>
+    <div id="wholeSetting">
+        <h1 id="tytle">進撃のHIYOKO</h1>
+        <div id="element">
+            <div>操作方法</div>
+            <ul id="howTo">
+                <li class="list">→：右移動</li>
+                <li class="list">←：左移動</li>
+                <li class="list">↓：下移動</li>
+                <li class="list">↑：上移動</li>
+                <li class="list">スペース：弾丸発射</li>
+                <li class="list">青色バー：自機のHP</li>
+            </ul>
+            <div id="text1">襲い掛かるHIYOKO達を軽快に撃退？</div>
+            <audio controls preload="metadata" autoplay loop src="music.mp3"></audio>
+            <form>
+                <input type="button" value="Start!" id="buttonClick">
+            </form>
+        </div>
+    </div>
+    <link rel="stylesheet" href="shooting.css">
     <canvas id="can"></canvas>
     <script src="misc.js"></script>
     <script src="data.js"></script>
@@ -16,5 +35,4 @@
     <script src="teki.js"></script>
     <script src="main.js"></script>
 </body>
-
 </html>
